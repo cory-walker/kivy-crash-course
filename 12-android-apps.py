@@ -14,8 +14,6 @@ Context = autoclass('android.content.Context')
 vibrator = activity.getSystemService(Context.VIBRATOR_SERVICE)
 '''
 
-
-
 class AndroidApp(App):
     def build(self):
         #vibrator.vibrate(10000)
