@@ -26,14 +26,14 @@ class ScatterTextWidget(BoxLayout):
 
         # with self.canvas.before:
 
-        with self.canvas:
-            Color(0, 1, 0, 1)
-            self.rectangle = Rectangle(pos=(0, 100), size=(300, 100))
-            Ellipse(pos=(0, 400), size=(300, 100))
-            Line(points=[0, 0, 500, 600, 400, 300], close=True, width=3)
+        # with self.canvas:
+        #Color(0, 1, 0, 1)
+        #self.rectangle = Rectangle(pos=(0, 100), size=(300, 100))
+        #Ellipse(pos=(0, 400), size=(300, 100))
+        #Line(points=[0, 0, 500, 600, 400, 300], close=True, width=3)
 
-    def on_size(self, *args):
-        self.rectangle.size = self.size
+    # def on_size(self, *args):
+    #    self.rectangle.size = self.size
 
     def change_label_colour(self, *args):
         colour = [random.random() for i in range(3)] + [1]
