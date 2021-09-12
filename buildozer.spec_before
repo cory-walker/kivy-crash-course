@@ -30,7 +30,8 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 
 # (list) Application requirements
-requirements = kivy
+requirements = plyer,kivy
+
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -50,7 +51,7 @@ fullscreen = 0
 #
 
 # (list) Permissions
-# android.permissions = INTERNET
+android.permissions = VIBRATE
 
 # (int) Android API to use
 #android.api = 14
